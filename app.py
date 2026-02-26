@@ -7,7 +7,7 @@ import io
 
 # Setup Streamlit
 st.set_page_config(page_title="Visualisasi EEG & BPM", layout="wide")
-st.title("🧠 Visualisasi EEG dan BPM Mahasiswa")
+st.title("🧠 FocusNet: Identifikasi Tingkat Fokus berbasis Multimodal")
 
 # Fungsi bandpass filter
 def bandpass_filter(data, lowcut, highcut, fs, order=1):
@@ -177,3 +177,4 @@ if eeg_file is not None and bpm_file is not None:
 
 else:
     st.info("👆 Silakan upload kedua file CSV (EEG dan BPM) untuk memulai visualisasi")
+
