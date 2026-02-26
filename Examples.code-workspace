@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Examples",
+			"path": "../Bluetooth Kit 4.0/Python/Examples"
+		},
+		{
+			"name": "Streamlit",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
